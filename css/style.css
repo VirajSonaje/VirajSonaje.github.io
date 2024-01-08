@@ -1583,6 +1583,9 @@ a:focus {
     color: #414141;
 }
 
+.hide-on-mobile{
+}
+
 @media (max-width: 575.98px) {
     .footer .footer-info h2 {
         margin-bottom: 20px;
@@ -1599,5 +1602,9 @@ a:focus {
         font-size: 16px;
         line-height: 16px;
         padding: 0 5px;
+    }
+
+    .hide-on-mobile{
+        display: none;
     }
 }
